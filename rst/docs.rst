@@ -59,7 +59,7 @@ PDFL SDK
 Acrobat.com
 ----------------------
 
-* Status: Archive. Internal
+* Status: 2017 Archive. Internal
 * Assets: Dev guide, image library, demos, code samples, API reference.
 
 .. raw:: html
@@ -69,7 +69,7 @@ Acrobat.com
 Internal Acrobat.com beta
 ----------------------------------
 
-* Status: Archive. Internal
+* Status: 2016 Archive. Internal
 * Assets: Dev guide, image library, tools, best  practices, code samples, onboarding docs.
 
 .. raw:: html
@@ -79,23 +79,21 @@ Internal Acrobat.com beta
 DEXI SDK
 ----------------------------------
 
-* Status: Archive. Internal
+* Status: 2015 Archive. Internal
 * Assets: Dev guide, API References, setup guides, tools, best practices, onboarding docs.
 
 .. raw:: html
 
    <img src="_images/dexisdk.png" class="thumbnail" height="10%" width="10%" /> 
 
-Acrobat Test Toolkit
-----------------------------------
+Other SDKs
+------------------------
 
-Forthcoming
-
-Cocomo (Adobe Connect)
-----------------------------------
-
-Forthcoming
-
+* Acrobat Test Toolkit
+* Cocomo (Adobe Connect)
+* DPDF (dynamic PDF)
+* Adobe AIR
+* Add 20 more here. . . 
 
 API References
 =============================
