@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Untitled</title>
+<script type="text/javascript" src="mktree.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+  $('#slidewidth button').click(function() {
+    $(this).next().animate({width: 'toggle'});
+  });
+});
+</script>
+<link rel="stylesheet" href="mktree.css" type="text/css">
+</head>
+
+<body onLoad="collapseTree('tree1'); return false;">
+
+<!--<div id="slidewidth" class="slide">
+  <button>Show/Hide</button>
+  <div class="inner">
+
+<table><tr><td>
+<input name="Search all locations..." type="text" value="Search all locations..." size="35" style="font-size:9px; margin: 5px;"/></td><td>
+<a href="opensky1.html" target="main"><img src="search.png" width="16" height="16" style="vertical-align:middle"></a></td></tr></table>
+ -->
+<br/>
+<div style="margin:5px;">
+<p><strong>Add a connection: </strong></p>
+<p>Name: </p><input name="Name..." type="text" value="Connection Name" size="35" style="font-size:9px; position:absolute; left:55px; top:40px;"/>
+<p>Location: </p><input name="Location" type="text" value="https://somewhere/in/the/cloud" size="35" style="font-size:9px; position:absolute; left:55px; top:60px"/>
+<p>Login: </p><input name="Login details" type="text" value="username-password" size="35" style="font-size:9px; position:absolute; left:55px; top:80px"/>
+<input type="button" value="ADD" style="position:absolute; left:175px;"/>
+</div>
+<br/><br/><br/>
+
+<div id="footer"> <a href="#" class="button" onClick="expandTree('tree1');return false;">Expand</a> | <A class="button" href="#" onClick="collapseTree('tree1'); return false;">Collapse</A> | Manage </div>
+
+<div id="wrap">
+  <ul class="mktree" id="tree1">
+    <li class="liOpen">My Devices
+      <ul>
+        <li><a href="acrobatcom.html" target="main"><img src="homecomputericon.png" width="16" height="16"> My Computer</a><span class="count">48</span></li>
+        <li><a href="workspaces.html" target="main"><img src="workcomputericon.png" width="16" height="16"> Work Computer</a><span class="count">2</span></li>
+        <li><img src="mobileicon.png" width="16" height="16"> Mobile Devices<span class="count">8</span></li>
+      </ul>
+    </li>
+    <li class="liOpen">My Acrobat Cloud
+      <ul>
+        <li><a href="acrobatcom.html" target="main"><img src="acrobatcomicon.png" width="16" height="16"> Acrobat.com</a><span class="count">48</span></li>
+        <li><a href="workspaces.html" target="main"><img src="acrobatcomicon.png" width="16" height="16"> Workspaces</a><span class="count">2</span></li>
+        <li><img src="exportpdficon.png" width="16" height="16"> EchoSign<span class="count">8</span></li>
+        <li><img src="formscentral.png" width="16" height="16"> Forms Central</li>
+        <li><img src="ccicon.png" width="16" height="16"> Creative Cloud</li>
+      </ul>
+    </li>
+    <li class="liOpen">My Corporate Network
+      <ul>
+        <li><img src="livecycle.png" width="16" height="16"> LiveCycle<span class="count">37</span></li>
+        <li><a href="sharepoint.html" target="main"><img src="sharepoint.png" width="16" height="16"> SharePoint</a><span class="count">72</span></li>
+        <li><img src="office365.png" width="16" height="16"> Office365<span class="count">9</span></li>
+        <li><img src="review.png" width="16" height="16"> Review Server<span class="count">14</span></li>
+      </ul>
+    </li>
+    <li class="liOpen">My Private Cloud
+      <ul>
+        <li><a href="dropbox.html" target="main"><img src="dropbox.png" width="16" height="16"> Dropbox</a><span class="count">37</span></li>
+<li><a href="dropbox.html" target="main"><img src="googledrive.png" width="16" height="16"> Google Drive</a><span class="count">1</span></li>
+<li><a href="dropbox.html" target="main"><img src="skydriveicon.png" width="16" height="16"> Sky Drive</a><span class="count">16</span></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+
+</div>
+</div>
+</body>
+</html>

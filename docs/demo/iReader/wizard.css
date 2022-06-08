@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+ body {
+	background: #D4D0C8;
+ 	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+ }
+
+.tablecell {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	vertical-align:top;
+	padding-bottom:5px;
+}
+
+.tablecellmiddle {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	vertical-align: middle;
+	padding-bottom:5px;
+}
+
+th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	vertical-align:top;
+	padding-bottom:5px;
+}
+table { 
+	border:none; 
+	background-color:#D4D0C8; 
+	width:700px;
+}

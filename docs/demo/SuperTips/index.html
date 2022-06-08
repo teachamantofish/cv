@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8" />
+<title>Reveal Demo</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+<script type="text/javascript" src="reveal/jquery.reveal.js"></script>
+<link rel="stylesheet" href="reveal/reveal.css">
+
+</head>
+<body>
+<img src="images/acrobatsec.png" usemap="#secmap" style="border:none;"/> 
+
+<a href="#" data-reveal-id="myModal1" data-animation="fade" style="display:block; width:200px; height:20px; position:absolute; top:180px ; left: 220px;"></a> 
+<a href="#" data-reveal-id="myModal2" data-animation="fade" style="display:block; width:200px; height:20px; position:absolute; top:205px; left: 220px;"></a> 
+<a href="#" data-reveal-id="myModal3" data-animation="fade" style="display:block; width:200px; height:20px; position:absolute; top:225px; left: 220px;"></a>
+
+<div id="myModal1" class="reveal-modal"> <a class="close-reveal-modal">&#215;</a>
+  <div id="top">
+    <p class="boxheading">Protected View</p>
+<p class="body"><strong>Recommendation</strong>: Enable Protected View for files from potentially unsafe locations.</p>
+<p class="body"><em>Why</em>?</p>
+<ul>
+<li>PV is a secure, read-only mode that blocks most actions until you trust the document.</li>
+<li>Once you trust a file, locked features becomes enabled.</li>
+</ul>
+  </div>
+  <div id="footer"> 
+<a href="http://help.adobe.com/en_US/acrobat/X/pro/using/WS5f2d904ab3d326eb844218e12f38765a6f-7fff.html" target="_blank" style="float:left"><img src="images/book_icon&24.png"></a> 
+<a href="http://adobe.ly/RG9RXY" target="_blank" style="float:left"><img src="images/movie_icon&24.png"></a> 
+<a href="http://www.adobe.com/devnet-docs/acrobatetk/tools/QuickKeys/PV_PM_QuickKey11.pdf" target="_blank" style="float:left"><img src="images/key_icon&24.png"></a> 
+<a href="http://forums.adobe.com/community/acrobat" target="_blank" style="float:left"><img src="images/spechbubble_2_icon&24.png"></a> 
+Was this tip helpful? 
+<INPUT TYPE="image" SRC="images/hand_pro_icon&24.png" BORDER="0" ALT="Thank You!">
+<INPUT TYPE="image" SRC="images/hand_contra_icon&24.png" BORDER="0" ALT="Thank You!">
+  </div>
+</div>
+
+<div id="myModal2" class="reveal-modal"> <a class="close-reveal-modal">&#215;</a>
+  <div id="top">
+    <p class="boxheading">Organization-specific content examples. . .</p>
+    <ul>
+      <li>Our SharePoint URL here at Example Corp is <em>https://sharepoint.example.corp/teamsite</em>.</li>
+      <li>The default timestamp server should already be set to <em>https://123.456.789</em>. </li>
+      <li>Shared toolset and action files are located on our servers. To request a new item, contact the service desk.</li>
+      <li>The Recent Files List is the union of files you've used on the desktop, online, and on your mobile devices.</li>
+      <li>Before signing, make sure you use Example Corp's signature appearance and watermark.</li>
+    </ul>
+  </div>
+  <div id="footer"> 
+<a href="http://help.adobe.com/en_US/acrobat/X/pro/using/WS5f2d904ab3d326eb844218e12f38765a6f-7fff.html" target="_blank" style="float:left"><img src="images/book_icon&24.png" width="24" height="24"></a> 
+<a href="http://adobe.ly/RG9RXY" target="_blank" style="float:left"><img src="images/movie_icon&24.png" width="24" height="24"></a>
+<a href="http://www.adobe.com/devnet-docs/acrobatetk/tools/QuickKeys/PV_PM_QuickKey11.pdf" target="_blank" style="float:left"><img src="images/key_icon&24.png"></a> 
+<a href="http://forums.adobe.com/community/acrobat" target="_blank" style="float:left"><img src="images/spechbubble_2_icon&24.png"></a> 
+Was this tip helpful? 
+<INPUT TYPE="image" SRC="images/hand_pro_icon&24.png" BORDER="0" ALT="Thank You!">
+<INPUT TYPE="image" SRC="images/hand_contra_icon&24.png" BORDER="0" ALT="Thank You!">
+  </div>
+</div>
+
+<div id="myModal3" class="reveal-modal"> <a class="close-reveal-modal">&#215;</a>
+  <div id="top">
+    <p class="boxheading">IT Mode example</p>
+    <p class="body">This UI item maps to <em>iProtectedView</em> which specifies whether to user Protected View never (default), for files from an untrusted location (recommended), or always.</p>
+
+    <ul>
+      <li><strong>HKCU setting</strong>: HKEY_CURRENT_USER\Software\Adobe\(product name)\(version)\TrustManager\iProtectedView</li>
+<ul>
+		<li>0: (default) Disable Protected View.</li>
+			<li>1: (recommended) Enable Protected View for unsafe locations only.</li>
+			<li>2: Enable Protected View for all files.</li>
+		</ul> 
+      <li><strong>Lockable setting</strong>: HKLM\SOFTWARE\Policies\Adobe\(product name)\(version)\FeatureLockdown\iProtectedView</li>
+    </ul>
+  </div>
+  <div id="footer"> 
+<a href="http://www.adobe.com/devnet-docs/acrobatetk/tools/PrefRef/Windows/TrustManager.html#idkeyname_1_19540" target="_blank" style="float:left"><img src="images/book_icon&24.png" width="24" height="24"></a> 
+<a href="http://tv.adobe.com/show/acrobat-it-tips-tricks-tutorials/" target="_blank" style="float:left"><img src="images/movie_icon&24.png" width="24" height="24"></a>
+<a href="http://www.adobe.com/devnet-docs/acrobatetk/tools/QuickKeys/PV_PM_QuickKey11.pdf" target="_blank" style="float:left"><img src="images/key_icon&24.png"></a> 
+<a href="http://forums.adobe.com/community/acrobat" target="_blank" style="float:left"><img src="images/spechbubble_2_icon&24.png"></a> 
+Was this tip helpful? 
+<INPUT TYPE="image" SRC="images/hand_pro_icon&24.png" BORDER="0" ALT="Thank You!">
+<INPUT TYPE="image" SRC="images/hand_contra_icon&24.png" BORDER="0" ALT="Thank You!">
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8" />
+<title>Reveal Demo</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+<script type="text/javascript" src="reveal/jquery.reveal.js"></script>
+<link rel="stylesheet" href="reveal/reveal.css">
+</head>
+<body>
+<div id="box">
+  <p id="title">&nbsp;Value propositions</p>
+  <label><input name="one" type="checkbox" value="one" checked> Simple Implementation</label>  <br />
+  <label><input name="one" type="checkbox" value="one" checked> Good for Acrobat</label><br />
+  <label><input name="one" type="checkbox" value="one" checked> User experience</label>  <br />
+  <label><input name="one" type="checkbox" value="one" checked> Configuration</label>  <br />
+  <br />
+  <br />
+  <form style="float:right;">
+    <a href="index.html">
+    <input type="button" value="Examples">
+    </a>
+  </form>
+  <br />
+  <br />
+</div>
+<a href="#" data-reveal-id="myModal1" data-animation="fade" style="display:block; width:150px; height:20px; position:absolute; top:125px ; left: 125px;"></a> 
+<a href="#" data-reveal-id="myModal2" data-animation="fade" style="display:block; width:150px; height:20px; position:absolute; top:145px; left: 125px;"></a> 
+<a href="#" data-reveal-id="myModal3" data-animation="fade" style="display:block; width:150px; height:20px; position:absolute; top:165px; left: 125px;"></a>
+<a href="#" data-reveal-id="myModal4" data-animation="fade" style="display:block; width:200px; height:20px; position:absolute; top:185px; left: 125px;"></a> 
+
+<div id="myModal1" class="reveal-modal"> <a class="close-reveal-modal">&#215;</a>
+  <div id="top">
+    <p class="boxheading">Simple Implementation</p>
+    <a href="images/arch.png" target="_blank"><img src="images/archsmall.png" style="float:right;"></a>
+<ul>
+
+      <li><strong>Reader.NEXT-friendly</strong>: Plugin displays HTML/JS/CSS</li>
+      <li><strong>SPA2/acroEXT</strong>: Leverages existing infrastructure.</li>
+      <li><strong>HTML/JS/CSS</strong>: Easy to write and maintain. Less than 100 lines of jQuery loops through XML.</li> 
+      <li><strong>Headlights/Site-Catalyst</strong>: Data collection via the current mechanism.</li>
+      <li><strong>Low risk</strong>: Can target problematic features and roll out one at a time.</li>
+    </ul>
+  </div>
+  <div id="footer"> Simplicity is the soul of efficiency. -- Austin Freeman, "The Eye of Osiris" </div>
+</div>
+
+<div id="myModal2" class="reveal-modal"> <a class="close-reveal-modal">&#215;</a>
+  <div id="top">
+    <p class="boxheading">Acrobat Pros</p>
+    <ul>
+      <li><strong>Less overhead</strong>: Content from PMs, TAMS, engineering (AND LR). </li>
+      <li><strong>Multiple data sources</strong>: Local or cloud based files; IPM hooks possible.</li>
+      <li><strong>24/7 updates</strong>: When cloud-based: updatable 24/7. </li>
+      <li><strong>Enterprise-friendly</strong>: Enables org-specific content and configuration.</li>
+      <li><strong>Extends accessibility</strong>: Provides automatic Read-Mode and other configurations. </li>
+      <li><strong>Direct feedback</strong>: Rate IT! data collection provides immediate feedback. </li>
+    </ul>
+  </div>
+  <div id="footer">"Normal people believe that if it ain't broke, don't fix it. Engineers believe that if it ain't broke, it doesn't have enough features yet." -- Scott Adams </div>
+</div>
+
+<div id="myModal3" class="reveal-modal"> <a class="close-reveal-modal">&#215;</a>
+  <div id="top">
+    <p class="boxheading">User experience</p>
+    <ul>
+      <li><strong>Usable</strong>: Faster than the oft-outdated Help. No waiting for page load.</li>
+      <li><strong>Non-invasive</strong>: Normal UI interaction does not show tooltip.</li>
+      <li><strong>No new UI</strong>: Nothing to learn: click existing labels.</li>
+      <li><strong>Easy dismissal</strong>: Exit via: ESC, click outside of popup, or click X.</li>
+      <li><strong>Resources On-Demand</strong>: Find and access additional resources instantly.</li>
+    </ul>
+  </div>
+  <div id="footer"> There are two things of importance: The customer and the product. "If you take care of the customer, they come back. If you take care of the product, it doesn't come back." -- S.Marcus, Nieman Marcus </div>
+</div>
+
+<div id="myModal4" class="reveal-modal"> <a class="close-reveal-modal">&#215;</a>
+  <div id="top">
+    <p class="boxheading">Registry configuration: HKCU/.../AVGeneral/SuperTips/</p>
+    <ul>
+      <li><strong>iTipSource</strong>: </li>
+		<ul>
+          <li><strong>0</strong> = none (disable feature)</li>
+          <li><strong>1</strong> = local file (for end user content)</li>
+		  <li><strong>2</strong> = (<em>Default</em>) cloud file (for end user content)</li>
+		  <li><strong>3</strong> = cloud file (turn on IT Mode for IT-only content)</li>
+		</ul>
+	   <li><strong>bTipAccessibility</strong>: Toggles whether the product should go into read-out-loud mode and read the tip text automatically. When set, tips must be manually dismissed, and tips are included in tab focus and F6 cycle.</li>
+    </ul>
+  </div>
+  <div id="footer"> 
+<a href="http://help.adobe.com/en_US/acrobat/X/pro/using/WS5f2d904ab3d326eb844218e12f38765a6f-7fff.html" target="_blank" style="float:left"><img src="images/book_icon&24.png" width="24" height="24"></a> 
+<a href="http://adobe.ly/RG9RXY" target="_blank" style="float:left"><img src="images/movie_icon&24.png" width="24" height="24"></a> 
+<a href="http://www.adobe.com/devnet-docs/acrobatetk/tools/QuickKeys/PV_PM_QuickKey11.pdf" target="_blank" style="float:left"><img src="images/key_icon&24.png"></a> 
+<a href="http://forums.adobe.com/community/acrobat" target="_blank" style="float:left"><img src="images/spechbubble_2_icon&24.png"></a> 
+Was this tip helpful? 
+<INPUT TYPE="image" SRC="images/hand_pro_icon&24.png" BORDER="0" ALT="Thank You!">
+<INPUT TYPE="image" SRC="images/hand_contra_icon&24.png" BORDER="0" ALT="Thank You!">
+  </div>
+</div>
+</body>
+</html>

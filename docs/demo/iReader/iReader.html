@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>iReader</title>
+<script type="text/javascript" src="mktree.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+  $('#slidewidth button').click(function() {
+    $(this).next().animate({width: 'toggle'});
+  });
+});
+</script>
+<link rel="stylesheet" href="mktree.css" type="text/css">
+</head>
+
+<body onLoad="collapseTree('tree1'); return false;">
+
+<div id="slidewidth" class="slide">
+  <button>Show/Hide</button>
+  <div class="inner">
+
+<table><tr><td>
+<input name="Search all services (drees idea)" type="text" value="OpenSky Search" size="35" style="font-size:9px; margin: 5px;"/></td><td>
+<a href="opensky1.html" target="main"><img src="search.png" width="16" height="16" style="vertical-align:middle"></a></td></tr></table>
+
+<div id="footer"> <a href="#" class="button" onClick="expandTree('tree1');return false;">Expand</a> | <A class="button" href="#" onClick="collapseTree('tree1'); return false;">Collapse</A> | <a href="#" title="Manage services dialog: add, remove, reorder, etc.">Manage</a> | <a href="#" title="Sort list by vendor, action, alphabetically, most used.">Views</a></div>
+
+<div id="wrap">
+  <ul class="mktree" id="tree1">
+    <li class="liOpen">My Acrobat Cloud
+      <ul>
+        <li><a href="acrobatcom.html" target="main"><img src="acrobatcomicon.png" width="16" height="16"> Acrobat.com</a><span class="count">48</span></li>
+        <li><a href="workspaces.html" target="main"><img src="acrobatcomicon.png" width="16" height="16"> Workspaces</a><span class="count">2</span></li>
+        <li><img src="exportpdficon.png" width="16" height="16"> EchoSign<span class="count">8</span></li>
+        <li><img src="formscentral.png" width="16" height="16"> Forms Central</li>
+      </ul>
+    </li>
+    <li class="liOpen">My Corporate Cloud
+      <ul>
+        <li><a href="sharepoint.html" target="main"><img src="sharepoint.png" width="16" height="16"> SharePoint</a><span class="count">72</span></li>
+        <li><img src="office365.png" width="16" height="16"> Office365<span class="count">9</span></li>
+        <li><img src="livecycle.png" width="16" height="16"> LiveCycle<span class="count">37</span></li>
+        <li><img src="review.png" width="16" height="16"> Review Server<span class="count">14</span></li>
+      </ul>
+    </li>
+    <li class="liOpen">My Creative Cloud
+      <ul>
+        <li><img src="psicon.png" width="16" height="16"> Photoshop</li>
+        <li><img src="ccicon.png" width="16" height="16"> CC for Teams</li>
+      </ul>
+    </li>
+    <li class="liOpen">My Private Cloud
+      <ul>
+        <li><a href="dropbox.html" target="main"><img src="dropbox.png" width="16" height="16"> Dropbox</a></li>
+        <li><img src="facebook.png" width="16" height="16"> Facebook</li>
+        <li><img src="twitter.png" width="16" height="16"> Twitter</li>
+      </ul>
+    </li>
+    <li class="liOpen">Go Online
+      <ul>
+        <li><a href="https://inside.corp.adobe.com"  target="main">Intranet</a></li>
+        <li><a href="http://www.google.com"  target="main">Internet</a></li>
+      </ul>
+    </li>
+    <li class="liOpen">Local Store
+      <ul>
+        <li><a href="local.html"  target="main">One store</a></li>
+        <li><a href="local.html"  target="main">Entire device?</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+
+</div>
+</div>
+</body>
+</html>

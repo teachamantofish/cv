@@ -59,17 +59,48 @@ PDFL SDK
 Acrobat.com
 ----------------------
 
-* Status: Archive.
-* Assets: 
+* Status: Archive. Internal
+* Assets: Dev guide, image library, demos, code samples, API reference.
 
 .. raw:: html
 
-   <img src="_images/acrobatcomsdk.png" class="thumbnail" height="10%" width="10%" /> 
+   <img src="_images/acomsdk.png" class="thumbnail" height="10%" width="10%" /> 
+
+Internal Acrobat.com beta
+----------------------------------
+
+* Status: Archive. Internal
+* Assets: Dev guide, image library, tools, best  practices, code samples, onboarding docs.
+
+.. raw:: html
+
+   <img src="_images/acominternal.png" class="thumbnail" height="10%" width="10%" /> 
+
+DEXI SDK
+----------------------------------
+
+* Status: Archive. Internal
+* Assets: Dev guide, API References, setup guides, tools, best practices, onboarding docs.
+
+.. raw:: html
+
+   <img src="_images/dexisdk.png" class="thumbnail" height="10%" width="10%" /> 
+
+Acrobat Test Toolkit
+----------------------------------
+
+Forthcoming
+
+Cocomo (Adobe Connect)
+----------------------------------
+
+Forthcoming
+
 
 API References
 =============================
 
-Forthcoming.
+.. note:: API references are trivial. All SDKs include an API reference. I can use any tool and customize any output. The only work I don't do is Open Web/Swagger server setup as that's integrated with the code and belongs with the engineering team (though I can beautify and brand the UI).
 
 
 Developer Guides
@@ -80,7 +111,24 @@ Forthcoming.
 User Guides
 ====================
 
-Forthcoming.
+Customization Wizard
+--------------------------
+
+tbd
+
+Acrobat digital signatures
+-----------------------------
+
+tbd
+
+Acrobat.com
+--------------------
+
+A proposal for an online help system (before it existed).
+
+.. raw:: html
+
+   <img src="_images/acomhelp.png" class="thumbnail" height="10%" width="10%" /> 
 
 Quick keys
 =====================

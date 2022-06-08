@@ -116,12 +116,13 @@ User interface & string work
 
 * Design live HTML mockups and proposals: 
   
-  * iReader: Live demo available
-  * Super tips: Live demo available
+  * iReader: `Mobile and desktop UI mockup 2016  <./demo/iReader/index.html>`_ (**Check out the live Acrobat mobile app!**)
+  * Product features search: `Proposal to help users find Acrobat tools (2016) <./demo/findme/index.html>`_
+  * Super tips: `2017: A better in-product help experience <./demo/SuperTips/start.html>`_
 
-* Usability bugs and feedback
-* Edited 2000 strings over the course of Acrobat's last  15 years 
-* Created most of the security-related strings from 2009-2018
+* Continuously provide usability feedback and file enhancement bugs
+* Edited 2000 UI strings over the course of Acrobat's last 15 years 
+* Authored most of Acrobat and Reader's security-related strings from 2009-2018
 
 Standards docs
 =======================

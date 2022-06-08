@@ -1,0 +1,132 @@
+/* Put this inside a @media qualifier so Netscape 4 ignores it */
+
+body {
+	height: 700px;
+	background-color: #525252;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Tahoma, sans-serif;
+	font-size:10px;
+color:white;
+}
+
+.slide {
+  position: relative;
+}
+.slide .inner {
+}
+
+#wrap {
+	margin:0;
+	padding:0px 0px 0px -35px;
+	width:190px;
+}
+#footer {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 14px;
+	font-size:9px;
+	padding:3px;
+	background-color: 353535;
+}
+a:link, a:hover, a:active, a:visited {
+	text-decoration:none;
+	color:white;
+}
+.leftarrow {
+	position:absolute;
+	top:35px;
+	left:188px;
+}
+.acrobaticon {
+	background-image:url(acrobatcomicon.png);
+	background-repeat:no-repeat;
+}
+.count {
+	background-color:#999;
+	padding:0px 1px 0px 1px;
+	float:right;
+	width:15px;
+	margin-top:5px;
+}
+li.normal {
+	list-style:square;
+}
+ul.normal {
+margin: 5px 5px 5px 20px;
+padding:0;
+}
+.comment {
+color:black;
+	background-color:#FFC;
+	font-size:10px;
+	position:absolute;
+	top:150px;
+	left:150px;
+	width:350px;
+	border:black thin solid;
+padding:5px;
+}
+.comment2 {
+	background-color:#FFC;
+	font-size:10px;
+	position:absolute;
+	top:450px;
+	left:150px;
+	width:350px;
+	border:black thin solid;
+}
+ @media screen, print {
+/* Turn off list bullets */
+	ul.mktree {
+	list-style: none;
+	margin:0px;
+}
+li {
+	list-style: none;
+}
+/* Control how "spaced out" the tree is */
+	ul.mktree, ul.mktree ul, ul.mktree li {
+	margin-left: 0px;
+	padding:2px;
+}
+/* Space between bullet and text. */
+	ul.mktree li .bullet {
+	padding-left: 15px;
+}
+/* Show "bullets" in the links, depending on the class of the LI that the link is in */
+	ul.mktree li.liOpen .bullet {
+	cursor: pointer;
+	background: url(minus.gif) center left no-repeat;
+	font-variant:small-caps;
+	font-weight:bold;
+}
+ul.mktree li.liClosed .bullet {
+	cursor: pointer;
+	font-variant:small-caps;
+font-weight:bold;
+	background: url(plus.gif) center left no-repeat;
+}
+/* No bullets for level 3*/
+	ul.mktree li.liBullet .bullet {
+	cursor: default;
+	font-variant:small-caps;
+	background: url(whitebullt.png) center left no-repeat;
+}
+/* Sublists are visible or not based on class of parent LI */
+	ul.mktree li.liOpen ul {
+	display: block;
+	font-variant:small-caps;
+}
+ul.mktree li.liClosed ul {
+	display: none;
+	font-variant:small-caps;
+}
+/* Format menu items differently depending on what level of the tree they are in */
+	/* Uncomment this if you want your fonts to decrease in size the deeper they are in the tree */
+
+	ul.mktree li ul li {
+	font-size: 10px;
+}
+}
+}

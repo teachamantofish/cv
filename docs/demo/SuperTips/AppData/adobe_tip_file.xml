@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tiproot>
+  <product acrobat="1" reader="1" win="1" mac="1" maptoconstant="CONSTANTNAME">
+    <heading>Topic title</heading>
+    <body>
+      <text>Example explanation</text>
+      <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+      </ul>
+      <image>local or online image</image>
+    </body>
+    <resources>
+      <help>http://www.example.com</help>
+      <video>http://www.example.com</video>
+      <key>http://www.example.com</key>
+      <forum>http://www.example.com</forum>
+      <other>http://www.example.com</other>
+    </resources>
+  </product>
+  <product acrobat="1" reader="1" win="1" mac="1" maptoconstant="CONSTANTNAME">
+    <heading>Topic title</heading>
+    <body>
+      <text>Example explanation</text>
+      <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+      </ul>
+      <image>local or online image</image>
+    </body>
+    <resources>
+      <help>http://www.example.com</help>
+      <video>http://www.example.com</video>
+      <key>http://www.example.com</key>
+      <forum>http://www.example.com</forum>
+      <other>http://www.example.com</other>
+    </resources>
+  </product>
+  <product acrobat="1" reader="1" win="1" mac="1" maptoconstant="CONSTANTNAME">
+    <heading>Topic title</heading>
+    <body>
+      <text>Example explanation</text>
+      <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+      </ul>
+      <image>local or online image</image>
+    </body>
+    <resources>
+      <help>http://www.example.com</help>
+      <video>http://www.example.com</video>
+      <key>http://www.example.com</key>
+      <forum>http://www.example.com</forum>
+      <other>http://www.example.com</other>
+    </resources>
+  </product>
+  <product acrobat="1" reader="1" win="1" mac="1" maptoconstant="CONSTANTNAME">
+    <heading>Topic title</heading>
+    <body>
+      <text>Example explanation</text>
+      <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+      </ul>
+      <image>local or online image</image>
+    </body>
+    <resources>
+      <help>http://www.example.com</help>
+      <video>http://www.example.com</video>
+      <key>http://www.example.com</key>
+      <forum>http://www.example.com</forum>
+      <other>http://www.example.com</other>
+    </resources>
+  </product>
+</tiproot>
