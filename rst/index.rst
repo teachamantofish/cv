@@ -62,6 +62,20 @@ Guidance and direction is awesome, but it's not required. I can rapidly ramp wit
 * API references live + skeleton developer portal
 * Propose a rough documentation strategy
 
+Performance expectations
+----------------------------
+
+* Dev portal skeleton: 1 day to build, 1 day to brand, 3 days for review and updates.
+* API References: 1-2 days to brand; 1 day per 100 API code comment updates. Integrate with dev portal: instantaneous.
+* Dev Guides: Intro, dev env, system reqs, getting a credential: 2 days; Other topics: highly variable. Integrate with dev portal: instantaneous.
+* User interface docs: 
+
+   * New publish methodology, including migrating current content to a scalable method: unknown, but fast. 
+   * Pages per day: Could start out at 2-5 per day and ramp to 10/day; however, I haven't seen the product so it's a guess.
+   * Note that UI docs are often the easiest to produce, but there are often workflow constraints which impair speed to go-live. 
+
+.. caution: It doesn't auto-magically happen all at once. The team needs to prioritize.
+
 Typical rough plan
 --------------------------
 

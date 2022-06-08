@@ -45,12 +45,12 @@ Adobe Sign dev ecosystem overhaul
 Publish pipeline and process
 =======================================
 
-Proposal to mgmt: Why use markdown?
+Management proposal: Why use markdown?
 ---------------------------------------
 
 Rationale:
 
-* Faster and easier
+* Boost productivity up to 500%
 * Scriptable
 * Native OS features 
 * Free and open source tools
@@ -97,8 +97,8 @@ Forum administration
 
 * Created 3 mobile app forums and 3 enterprise/admin-only forums. 
 * Administered/managed 6 forums for 8 years. 
-* Answered 30% of all enteprise deployment and workflow questions. 
-* Conintue to the act as a primary resource for field sales and enterprise support. 
+* Answered 30% of all enterprise deployment and workflow questions. 
+* Continue to the act as a primary resource for field sales and enterprise support. 
 
 .. image:: images/forumadmin.png
 
