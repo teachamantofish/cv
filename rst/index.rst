@@ -53,7 +53,7 @@ Stakeholder communication: My take on how writers should interact with other con
 
    A writer's relationship to content stakeholders
 
-Doc roadmap
+Doc roadmap for Elwood
 ===========================
 
 Guidance and direction is awesome, but it's not required. I can rapidly ramp with as little as 4 manager POCs: engineering, product management, marketing management, support. You can set priorities, or the first week could look like this: 
@@ -75,6 +75,16 @@ Performance expectations
    * Note that UI docs are often the easiest to produce, but there are often workflow constraints which impair speed to go-live. 
 
 .. caution: It doesn't auto-magically happen all at once. Requirement: prioritize.
+
+This mockup took 1 hour
+------------------------
+
+Click the image or: `Doc portal mockup <./demo/portal/docs/index.html>`_
+
+.. figure:: images/mockup.png
+   :scale: 20%
+   :target: ./demo/portal/docs/index.html
+
 
 Typical rough plan
 --------------------------

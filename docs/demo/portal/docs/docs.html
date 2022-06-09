@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Order Management System API &mdash; Ben Rogers &gt; CV</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link href="_static/jquery-ui.css" rel="stylesheet" />
+  <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
+
+    
+  
+  
+  <link rel="canonical" href="https://www.linkedin.com/in/ben-rogers-77a625a/docs.html" />
+  
+
+  
+  
+  
+  <script type="text/javascript" src="_static/jquery.js"></script>
+  <script type="text/javascript" src="_static/underscore.js"></script>
+  <script type="text/javascript" src="_static/doctools.js"></script>
+  <script type="text/javascript" src="_static/language_data.js"></script>
+  <script type="text/javascript" src="_static/searchtools.js"></script>
+  <script type="text/javascript" id="documentation_options" data-url_root="../" src="_static/documentation_options.js"></script>
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+   
+  
+    <link rel="search" title="Search" href="search.html" /> 
+
+	<script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() >= 50) {
+          $('.fixedbar, .wy-nav-side').addClass('scroll');
+          $('.wy-top-menu-wrapper').fadeOut();
+        } else {
+          $('.fixedbar, .wy-nav-side').removeClass('scroll');
+          $('.wy-top-menu-wrapper').fadeIn();
+        }
+      });
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          $('#scroll').fadeIn();
+        } else {
+          $('#scroll').fadeOut();
+        }
+      });
+      $('#scroll').click(function () {
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+      });
+    });
+  </script>
+
+<style>
+  .wy-nav-content {max-width:90%}
+  </style>
+</head>
+<body class="wy-body-for-nav">
+<!-- @@@@@@@@@@@@@@@@ Custom @@@@@@@@@@@@@@@@ -->
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+ <!-- @@@@@@@@@@@@@@@@ Custom @@@@@@@@@@@@@@@@ -->
+ 
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="./index.html" class="icon icon-home"> Ben Rogers
+          
+
+          
+          </a>
+
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Welcome the Elwood Developer Ecosystem!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gettingstarted.html">Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gettingstarted.html#welcome">Welcome</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gettingstarted.html#setting-up-your-environment">Setting up your environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gettingstarted.html#getting-a-credential">Getting a credential</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="apiref1.html">Order Management System API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="apiref2.html">Order Management System API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="devguide.html">Developer Guide</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+        <!--- @@@@@@@@@@@@@@@@ Custom @@@@@@@@@@@@@@@@ -->
+        <div class="fixedbar">  
+          <div class="wy-menu-items">
+            <a href="https://www.linkedin.com/in/ben-rogers-77a625a/" class="topbarlink">LinkedIn</a>
+            <a href="https://www.facebook.com/brogersao/" class="topbarlink">Facebook</a>
+            <a href="https://github.com/teachamantofish" class="topbarlink">Github</a>  
+          </div>  
+          <div class="sign-in">
+            <a href="mailto:ben.rogers@gmail.com" class="btn btn-console">Email</a>
+           <!-- <a href="https://auth.services.adobe.com/en_US/index.html">Sign in</a>-->
+          </div>
+        </div>
+        <!--- @@@@@@@@@@@@@@@@ Custom @@@@@@@@@@@@@@@@ -->
+   
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="./index.html">Ben Rogers</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+      <a href="#" id="scroll" style="display:inline;"><span></span></a>
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="./index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Order Management System API</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="order-management-system-api">
+<h1>Order Management System API<a class="headerlink" href="#order-management-system-api" title="Permalink to this headline">¶</a></h1>
+<div class="figure align-default" id="id1">
+<a class="reference internal image-reference" href="_images/uc2.gif"><img alt="_images/uc2.gif" src="_images/uc2.gif" style="width: 187.5px; height: 140.5px;" /></a>
+<p class="caption"><span class="caption-text">Under construction</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  
+  <div role="contentinfo">
+    <br/><br/>
+    <br/><br/>
+    <img src="_images/dq1.jpg"  class="endimage"/>
+    <p>
+        
+        &copy; Copyright 2022, Ben Rogers.
+      <span class="lastupdated">
+        Last updated on Jun 09, 2022.
+      </span>
+    </p>
+   
+  </div> 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+  
+  <script src="_static/jquery-ui.js"></script>
+  <script>
+    // $( "#accordion" ).accordion();
+    $("#accordion").accordion({ header: "h3", collapsible: true, active: false });
+    // Hover states on the static widgets
+
+    $("#dialog-link, #icons li").hover(
+      function () {
+        $(this).addClass("ui-state-hover");
+      },
+      function () {
+        $(this).removeClass("ui-state-hover");
+      }
+    );
+  </script>
+</body>
+</html>
