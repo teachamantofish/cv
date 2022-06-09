@@ -45,8 +45,22 @@ Adobe Sign dev ecosystem overhaul
 Publish pipeline and process
 =======================================
 
-Management proposal: Why use markdown?
----------------------------------------
+
+Doc strategy (proposed to engineering)
+----------------------------------------------------------------
+
+* 2019: My presentation to management arguing for a GIT/text-based collaborative authoring system which could scale.
+* Assets: New pipeline/format, new UI, dev guide content, REST API updates, image library, demos, code samples.
+
+.. raw:: html
+
+   <img src="_images/dcsdk.png" class="thumbnail" height="10%" width="10%" /> 
+
+
+Why use text/GIT workflows? 
+-----------------------------------------------------
+
+A proposal for the Director of Helpx. 
 
 Rationale:
 
@@ -101,8 +115,6 @@ Forum administration
 * Administered/managed 6 forums for 8 years. 
 * Answered 30% of all enterprise deployment and workflow questions. 
 * Continue to the act as a primary resource for field sales and enterprise support. 
-
-.. image:: images/forumadmin.png
 
 .. image:: images/forumbadge.png
 
