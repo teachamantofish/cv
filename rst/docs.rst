@@ -3,7 +3,7 @@
 
 
 ******************************************************
-List of published work
+Doc Examples
 ******************************************************
 
 .. figure:: images/uc2.gif
@@ -11,10 +11,10 @@ List of published work
 
    Under construction
 
-SDKs Frameworks
+SDKs Portals
 =================
 
-Engineers often refer to their core APIs or installable binary as an "SDK". I define an "SDK" in the present context as the sum of the available developer assets. As a **Kit**, an SDK includes all available libraries, docs, tools, demos, and utilities.
+Engineers often refer to their core APIs or installable binary as an "SDK". I define an "SDK" in the present context as the sum of the available developer assets. As a **Kit**, an SDK includes all available libraries, docs, tools, demos, and utilities. A usable developer ecosystem requires a comprehensive and well-designed front-end that includes a search engine as well as other bells and whistles. 
 
 Acrobat Sign
 ------------------------------------------------------------
@@ -129,8 +129,17 @@ A proposal for an online help system (before it existed).
 
    <img src="_images/acomhelp.png" class="thumbnail" height="10%" width="10%" /> 
 
-Diagrams
+Example diagrams
 ========================
 
-Forthcoming.
+My tool-du-jour is Lucidchart. Images are collaborative and a single online source updates instantaneously in any number of locations. 
+
+.. raw:: html
+
+   <img src="_images/digsig.png" class="thumbnail" height="10%" width="10%" /> 
+   <img src="_images/rpdf.png" class="thumbnail" height="10%" width="10%" /> 
+   <img src="_images/pdfnext.png" class="thumbnail" height="10%" width="10%" /> 
+   <img src="_images/pdfmapping.png" class="thumbnail" height="10%" width="10%" /> 
+   <img src="_images/version.png" class="thumbnail" height="10%" width="10%" /> 
+
 
