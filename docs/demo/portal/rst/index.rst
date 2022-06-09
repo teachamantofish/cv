@@ -1,6 +1,6 @@
 
 ******************************************************
-Welcome the Elwood Developer Ecosystem!
+Welcome the to Elwood Trading Ecosystem!
 ******************************************************
 
 
