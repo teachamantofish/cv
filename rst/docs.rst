@@ -104,7 +104,7 @@ API References
 Developer Guides
 ======================
 
-Forthcoming.
+Forthcoming. For now, see the SDK docs.
 
 User Guides
 ====================
@@ -118,12 +118,7 @@ User Guides
 * `Customization Wizard (in-product and online) <https://www.adobe.com/devnet-docs/acrobatetk/tools/Wizard/index.html>`_
 * `Acrobat digital signatures <https://www.adobe.com/devnet-docs/acrobatetk/tools/DigSigDC/index.html>`_. This content is old but continues as the primary digsig resource. 
 * 20+ other in product, context sensitive help systems for 4 companies.
-
-
-Acrobat.com
---------------------
-
-A proposal for an online help system (before it existed).
+* Acrobat.com: A proposal for an online help system (before it existed).
 
 .. raw:: html
 
