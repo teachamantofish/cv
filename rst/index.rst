@@ -74,7 +74,7 @@ Performance expectations
    * Pages per day: Could start out at 2-5 per day and ramp to 10/day; however, I haven't seen the product so it's a guess.
    * Note that UI docs are often the easiest to produce, but there are often workflow constraints which impair speed to go-live. 
 
-.. caution: It doesn't auto-magically happen all at once. Requirement: prioritize.
+.. caution:: It doesn't auto-magically happen all at once. Requirement: prioritize.
 
 This mockup took 1 hour
 ------------------------

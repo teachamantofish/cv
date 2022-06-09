@@ -414,7 +414,7 @@ th > p {
 }
 
 #scroll {
-   background: #1473E6;
+   background: #00CB89;
    border-radius: 3rem;
    bottom: 1.5rem;
    box-shadow: 0 3px 0.75rem rgba(0,0,0,0.2);
@@ -441,7 +441,7 @@ th > p {
 }
 
 #scroll:hover {
-   background-color: #e74c3c;
+   background-color: #023b28;
    opacity: 1;
    filter: "alpha(opacity=100)";
    -ms-filter: "alpha(opacity=100)";

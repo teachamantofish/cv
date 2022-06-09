@@ -27,6 +27,6 @@ Contents
    :caption: Get support
    :hidden:
 
-   Forum
-   Support
-   Report an issue
+   Forum <./_images/dilbert1.png#://>
+   Support <./_images/support.png#://>
+   Report an issue <./_images/bug.png#://>
