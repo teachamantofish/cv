@@ -1,6 +1,6 @@
 
 ******************************************************
-Welcome the to Elwood Trading Ecosystem!
+Welcome to the Elwood Trading Ecosystem!
 ******************************************************
 
 
