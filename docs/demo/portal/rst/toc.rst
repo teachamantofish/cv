@@ -12,7 +12,6 @@ Contents
    apiref1
    apiref2
    devguide
-   Link to REST API
 
 .. toctree::
    :maxdepth: 2

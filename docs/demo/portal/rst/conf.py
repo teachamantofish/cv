@@ -62,7 +62,7 @@ html_short_title = "Elwood Trading Platform"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-#html_logo = "logo.png"
+html_logo = "logo.png"
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'Admin'
