@@ -86,14 +86,26 @@ DEXI SDK
 
    <img src="_images/dexisdk.png" class="thumbnail" height="10%" width="10%" /> 
 
+
+PDF Test Toolkit
+----------------------------------
+
+* Status: `2012-Present <https://www.adobe.com/devnet-docs/acrobatetk/tools/Labs/aptt.html#downloads>`_. Created back in the "hand code HTML" days.
+* Assets: Dev guide, release notes, test files, demos.
+
+.. raw:: html
+
+   <img src="_images/dexisdk.png" class="appt" height="10%" width="10%" /> 
+
 Other SDKs
 ------------------------
 
-* Acrobat Test Toolkit
 * Cocomo (Adobe Connect)
 * DPDF (dynamic PDF)
 * Adobe AIR
-* Add 20 more here. . . 
+* Knowmadic: BPEL Workflow SDK
+* Escalate: eCommerce stores with JSPs
+* Add more here. . . 
 
 API References
 =============================

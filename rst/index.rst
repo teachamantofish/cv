@@ -86,9 +86,11 @@ Typical rough plan
 Immediate fixes?
 --------------------
 
-Fix the public-facing issues ASAP:
+API Ref cleanup: Link, brand, edit/expand comments.
 
 .. image:: images/apiimage.png
+
+Remove this page: https://elwoodam.io/team
 
 .. image:: images/brokenweb.png
 
