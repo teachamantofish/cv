@@ -20,14 +20,14 @@ Introduction
       - 3
     * - Large Enterprise
       - Many, including Adobe.
-    * - Pages under my wing. . . 
+    * - Pages currently under my ownership
       - 20,000+
-    * - Page views
+    * - Current page views
       - Over 11,000,000 per year for docs I author.
     * - User Interface doc
       - Too many to count. Expert level. Desktop, web, and mobile apps, context sensitive help, MS Help, Webworks, Sphinx.
     * - SDKs and developer portals
-      - 10+ Expert level. Knowmadic, AIR, Adobe Connect, DC Services, DC View, Acrobat, PDFL, etc.
+      - 10+ Expert level. Adobe, AIR, Adobe Connect, DC Services, DC View, Acrobat, PDFL, Knowmadic, Escalate, Avantgo
     * - API References
       - Too many to count. Expert level. Dozens of projects using Javadoc, Doxygen, Swagger, Sphinx.
     * - Developer Guides
@@ -37,13 +37,13 @@ Introduction
     * - Specifications
       - Expert level. Internal and external implementation, language, and security specs.
     * - Compliance docs
-      - Expert level. HIPPA, SOC, PCI, FEDRamp, Common Criteria.
+      - Expert level. HIPPA, SOC, PCI, FEDRamp, Common Criteria. No experience in Fintech.
     * - Whitepapers, data sheets
       - Competent level. Too many to count. Domain expertise is required to reach an expert level.
     * - Scripting, automation
-      - Expert level for a writer. See video. I'm not an engineer or web developer. 
+      - Expert level for a writer. See video. I'm neither an engineer nor a web developer. 
 
-A doc team and the company
+A doc team's role
 ================================
 
 Stakeholder communication: My take on how writers should interact with other content stakeholders.
@@ -51,7 +51,7 @@ Stakeholder communication: My take on how writers should interact with other con
 .. figure:: images/videoicon.png
    :target: https://drive.google.com/file/d/1cCzHiy_A9Q7pL0CYV93xz0CaJ3dCObjD/view?usp=sharing
 
-   A writer's relationship to company stakeholders
+   A writer's relationship to content stakeholders
 
 Doc roadmap
 ===========================
@@ -65,8 +65,8 @@ Guidance and direction is awesome, but it's not required. I can rapidly ramp wit
 Performance expectations
 ----------------------------
 
-* Dev portal skeleton: 1 day to build, 1 day to brand, 3 days for review and updates.
-* API References: 1-2 days to brand; 1 day per 100 API code comment updates. Integrate with dev portal: instantaneous.
+* Dev portal skeleton: 1 day to build, 1 day to brand, 3 days for review and updates. Assume continuous evolution.
+* API References: 1-2 days to brand; 1 day per 100 API code comment updates. Integrate with dev portal: PDQ.
 * Dev Guides: Intro, dev env, system reqs, getting a credential: 2 days; Other topics: highly variable. Integrate with dev portal: instantaneous.
 * User interface docs: 
 
@@ -74,7 +74,7 @@ Performance expectations
    * Pages per day: Could start out at 2-5 per day and ramp to 10/day; however, I haven't seen the product so it's a guess.
    * Note that UI docs are often the easiest to produce, but there are often workflow constraints which impair speed to go-live. 
 
-.. caution: It doesn't auto-magically happen all at once. The team needs to prioritize.
+.. caution: It doesn't auto-magically happen all at once. Requirement: prioritize.
 
 Typical rough plan
 --------------------------
@@ -111,9 +111,9 @@ Relevant questions
 
 * **Marketing docs**: I've written many whitepapers, but it's a slow slog relative to domain experts. I'm more effective as a reviewer and technical liaison between engineering and marketing teams. 
 * **Coding from scratch**: I'm not an engineer or web developer, but hey, I only need to push strings around. . .
-* **Graphic art**: I'm an expert at screenshots, workflow and network diagrams, quick keys, and so on. I'm not a graphic artist and don't use Illustrator and other visually-centric authoring tools. If I need icons, for example, I grab an open source library.
+* **Graphic art**: I'm an expert at screenshots, workflow and network diagrams, quick keys, and so on. I'm not a graphic artist and don't use Illustrator, Photoshop, or other raw vector/raster image editing programs. If I need icons, for example, I grab an open source library.
 * **Politics**: I'm marginal at sugar-coating bullshit. I speak my mind. 
-* **TBD**: Be clear about your expectations, and I'll be honest about my capabilities. There's no point in accepting a position for which I cannot excel.
+* Be clear about your expectations, and I'll be honest about my capabilities. There's no point in accepting a position in which I cannot excel.
 
 .. raw:: html
 
