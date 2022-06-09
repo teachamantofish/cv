@@ -109,15 +109,16 @@ Forthcoming.
 User Guides
 ====================
 
-Customization Wizard
---------------------------
+* DC mobile apps: I designed and hand-coded the mobile app help system around 2015 because Adobe did not have responsive templates available in their prehistoric doc tools. In 2020, I redesigned the UI and migrated to a Python-Sphinx pipeline. These docs garner 5 million page view a year and are localized in 19 languages. They remain the only in-app help systems for any of Adobe's mobile products. I handed off the content to a junior writer last year but continue to manage the UI. 
 
-tbd
+  * `Acrobat <https://www.adobe.com/devnet-docs/acrobat/android/en/>`_
+  * `Scan <https://www.adobe.com/devnet-docs/adobescan/android/en/>`_
+  * `Adobe Sign <https://www.adobe.com/devnet-docs/adobesign/android/en/>`_
 
-Acrobat digital signatures
------------------------------
+* `Customization Wizard (in-product and online) <https://www.adobe.com/devnet-docs/acrobatetk/tools/Wizard/index.html>`_
+* `Acrobat digital signatures <https://www.adobe.com/devnet-docs/acrobatetk/tools/DigSigDC/index.html>`_. This content is old but continues as the primary digsig resource. 
+* 20+ other in product, context sensitive help systems for 4 companies.
 
-tbd
 
 Acrobat.com
 --------------------
@@ -128,38 +129,8 @@ A proposal for an online help system (before it existed).
 
    <img src="_images/acomhelp.png" class="thumbnail" height="10%" width="10%" /> 
 
-Quick keys
-=====================
-
-Forthcoming.
-
-
 Diagrams
 ========================
 
 Forthcoming.
-
-Patents
-===================
-
-Forthcoming.
-
-Academic
-=========================
-
-Forthcoming.
-
-Awards
-============================
-
-Writing
---------------
-
-Hang gliding
---------------------
-
-* 2008 King Mountain nationals. 1st place team. 13th overall. 
-* 2007 3rd place XC Wings of Rogallo contest. 
-* 2006 1st place XC Wings of Rogallo contest. 
-* 2004 1st place Sonoma Wings duration award.
 

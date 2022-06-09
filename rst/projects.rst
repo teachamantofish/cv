@@ -84,6 +84,8 @@ Enterprise configuration and deployment
 Enterprise Support
 ============================
 
+Engaging enterprise support is one of my priorities. I've been a primary contributor/resource on external and internal forums for 15 years. 
+
 Example communication with the field
 ----------------------------------------------------------
 
@@ -130,12 +132,12 @@ Standards docs
 * 2022: Align Acrobat and PDFL SDKs with the ISO PDF standard. 
 * 2020-2022: Home pages for PDF, SVG, XMP specs, manage go URL library and cross doc linking across 20,000 pages. 
 * 2018: FTPDF language specification (Liquid Mode in PDF): Sole author on a team of contributing engineers. The original intent was to provide an extensions to the ISO specification. 
-* 2009: Hired at Adobe to co-author the DPDF (dynamic PDF) language spec. After one year, the project morphed into AIR after Adobe bought Macromedia and owned Flash. 
+* 2008: Co-authored Dynamic PDF specification (a compound document format) for W3C submission. After one year, the DPDF project morphed into AIR after Adobe bought Macromedia and owned Flash. 
 
 Specifications
 =====================================
 
-* FTPDF Specification (Liquid Mode in Acrobat)
+* FTPDF language and API specification (Liquid Mode in Acrobat)
 * Security: Yellow Message Bar Specification
 * Adobe Cross Domain Policy Specification
 * Registry preference implementation specification for engineering

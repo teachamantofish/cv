@@ -12,3 +12,4 @@ Contents
    compliance
    projects
    docs
+   miscellany
