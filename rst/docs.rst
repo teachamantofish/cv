@@ -79,7 +79,7 @@ Internal Acrobat.com beta
 DEXI SDK
 ----------------------------------
 
-* Status: 2015 Archive. Internal
+* Status: 2015 Archive. Internal. Created back in the "hand code HTML" days.
 * Assets: Dev guide, API References, setup guides, tools, best practices, onboarding docs.
 
 .. raw:: html
@@ -95,7 +95,7 @@ PDF Test Toolkit
 
 .. raw:: html
 
-   <img src="_images/dexisdk.png" class="appt" height="10%" width="10%" /> 
+   <img src="_images/appt.png" class="thumbnail" height="10%" width="10%" /> 
 
 Other SDKs
 ------------------------
