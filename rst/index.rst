@@ -42,6 +42,8 @@ Introduction
       - Competent level. Too many to count. Domain expertise is required to reach an expert level.
     * - Scripting, automation
       - Expert level for a writer. See video. I'm neither an engineer nor a web developer. 
+    * - Other key skills
+      - Templates/pipeline/process, analytics, usability, self-driven, localization, enterprise support.
 
 A doc team's role
 ================================
