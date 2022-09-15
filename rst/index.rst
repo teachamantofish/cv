@@ -4,7 +4,7 @@
 Introduction
 ******************************************************
 
-.. note:: This document is in progress.
+.. note:: Attention interviewers! I cobbled this together for Elwood Asset Management in June. I'll update this document through September. Apologies for the oddities. Note also that I'm not a video whiz. I include the vids to speed insight into my work (save interview time). 
 
 **Overview**
 
@@ -19,21 +19,21 @@ Introduction
     * - Startups
       - 3
     * - Large Enterprise
-      - Many, including Adobe.
+      - Many, including Adobe, Silicon Graphics, Extreme Networks, and so on.
     * - Pages currently under my ownership
       - 20,000+
-    * - Current page views
-      - Over 11,000,000 per year for docs I author.
+    * - Current page views for managed content
+      - Over 11,000,000 per year
     * - User Interface doc
-      - Too many to count. Expert level. Desktop, web, and mobile apps, context sensitive help, MS Help, Webworks, Sphinx.
+      - Too many to count. Expert level. Desktop, web, and mobile apps, context sensitive help, MS Help, Webworks, Sphinx. Learning Hugo.
     * - SDKs and developer portals
       - 10+ Expert level. Adobe, AIR, Adobe Connect, DC Services, DC View, Acrobat, PDFL, Knowmadic, Escalate, Avantgo
     * - API References
-      - Too many to count. Expert level. Dozens of projects using Javadoc, Doxygen, Swagger, Sphinx.
+      - Too many to count. Expert level. Dozens of projects using Javadoc, Doxygen, Swagger, Sphinx. 
     * - Developer Guides
-      - Too many to count. Expert level. 
+      - Too many to count. Expert level. Currently designing a "better than Twilio" framework. 
     * - Enterprise docs
-      - Too many to count. Expert level. Deployment and config docs for dozens of desktop and service-based products. 
+      - Expert level. Deployment and config docs for dozens of desktop and service-based products. 
     * - Specifications
       - Expert level. Internal and external implementation, language, and security specs.
     * - Compliance docs
@@ -122,7 +122,7 @@ Relevant questions
               <h3 class="accordionheading">What are your weaknesses?</h3>
 
 * **Marketing docs**: I've written many whitepapers, but it's a slow slog relative to domain experts. I'm more effective as a reviewer and technical liaison between engineering and marketing teams. 
-* **Coding from scratch**: I'm not an engineer or web developer, but hey, I only need to push strings around. . .
+* **Coding from scratch**: I'm neither an engineer nor a web developer: but hey, I only need to push strings around. . .
 * **Graphic art**: I'm an expert at screenshots, workflow and network diagrams, quick keys, and so on. I'm not a graphic artist and don't use Illustrator, Photoshop, or other raw vector/raster image editing programs. If I need icons, for example, I grab an open source library.
 * **Politics**: I'm marginal at sugar-coating bullshit. I speak my mind. 
 * Be clear about your expectations, and I'll be honest about my capabilities. There's no point in accepting a position in which I cannot excel.
@@ -150,6 +150,6 @@ Relevant questions
 .. raw:: html
 
             <div id="accordion" class="accordionparent">
-              <h3 class="accordionheading">What is your outlook for Crypto?</h3>
+              <h3 class="accordionheading">What is your outlook for crypto/blockchain?</h3>
 
 .. image:: images/outlook.png
