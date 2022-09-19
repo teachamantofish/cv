@@ -15,6 +15,12 @@ Patents
 * In process 2022: PDF form based cryptographic generation (including QR codes)
 * In process 2022: Cryptographic consensus-based validation of PDF standards compliance
 
+Websites
+=====================
+
+* Created for my wife's business: https://epoxychic.com/
+* Of course, all the Adobe work (e.g. https://www.adobe.com/devnet-docs/acrobatetk/)
+
 Awards 
 ============================
 
