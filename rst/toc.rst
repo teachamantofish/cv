@@ -8,8 +8,7 @@ Contents
 
    index
    tools
-   trading
-   compliance
    projects
+   compliance
    docs
    miscellany
