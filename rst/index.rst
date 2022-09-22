@@ -4,9 +4,10 @@
 Introduction
 ******************************************************
 
-.. note:: Attention interviewers! I cobbled this together for Elwood Asset Management in June. I'll update this document through September. Apologies for the oddities. Note also that I'm not a video whiz. I include the vids to speed insight into my work (save interview time). 
+.. note:: I'm not a video whiz. I include the vids to speed insight into my skills, provide work examples, and save interview time. 
 
-**Overview**
+Overview
+=======================
 
 .. list-table:: 
     :widths:  25 75
