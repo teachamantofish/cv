@@ -15,12 +15,40 @@ My tool-du-jour is Lucidchart. Reasons:
 
 In short: Lucidchart is scalable.
 
+Quick Key
+=============
+
+.. image:: _images/digsig.png
+
+Workflow diagram
+=====================
+
+.. image:: _images/rpdf.png
+
+Code analysis
+==================
+
+.. image:: _images/pdfnext.png
+
+Language mapping
+======================
+
+.. image:: _images/pdfmapping.png
+
+Enterprise diagram
+==========================
+
+.. image:: _images/version.png
+
+
 .. raw:: html
 
+   <!--
    <img src="_images/digsig.png" class="thumbnail" height="10%" width="10%" /> 
    <img src="_images/rpdf.png" class="thumbnail" height="10%" width="10%" /> 
    <img src="_images/pdfnext.png" class="thumbnail" height="10%" width="10%" /> 
    <img src="_images/pdfmapping.png" class="thumbnail" height="10%" width="10%" /> 
    <img src="_images/version.png" class="thumbnail" height="10%" width="10%" /> 
+   -->
 
 
