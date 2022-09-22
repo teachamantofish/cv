@@ -8,7 +8,10 @@ Contents
 
    index
    tools
-   projects
+   developer
+   enterprise
+   mobile
    compliance
-   docs
+   projects
+   diagrams
    miscellany
