@@ -1,7 +1,4 @@
 
-.. |test| unicode::  <img src="_images/test.png" style="test" /U+003E
-
-
 ******************************************************
 Developer Portals and Docs
 ******************************************************

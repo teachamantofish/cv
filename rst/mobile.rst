@@ -14,7 +14,7 @@ DC mobile apps: I designed and hand-coded the help system for Acrobat Reader, Ad
 .. caution:: I handed off the content to a junior writer  in 2021 and there are now a few CSS and layout bugs. I can provide clean doc examples from my personal repo as needed.  
 
 .. figure:: images/videoicon.png
-   :target: https://drive.google.com/file/d/106Q9uCp7h_znyA3-J2nqZRLC1pg_58f1/view?usp=sharing
+   :target: https://drive.google.com/file/d/1GGXK0UMkSg7FtsynAYz8HuhhXO8_jChg/view?usp=sharing
 
    5 minute mobile doc overview
 
