@@ -11,6 +11,7 @@ Contents
    developer
    devdocframework
    enterprise
+   registry
    mobile
    compliance
    projects

@@ -119,10 +119,10 @@
 </li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Developer Portals and Docs</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#acrobat-sign">Acrobat Sign</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#pdf-viewer-microsoft-adobe-partnership">PDF viewer (Microsoft-Adobe partnership)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pdf-viewer">PDF viewer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#acrobat-com">Acrobat.com</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#acrobat-sdk">Acrobat SDK</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#pdfl-sdk">PDFL SDK</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#acrobat-com">Acrobat.com</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#internal-acrobat-com-beta">Internal Acrobat.com beta</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#dexi-sdk">DEXI SDK</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#pdf-test-toolkit">PDF Test Toolkit</a></li>
@@ -138,6 +138,7 @@
 <li class="toctree-l2"><a class="reference internal" href="enterprise.html#forum-administration">Forum administration</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="registry.html">Registry-plist Database (best-in-class)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="mobile.html">Mobile Docs</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="mobile.html#in-app-help">In-App Help</a></li>
 </ul>
@@ -268,26 +269,36 @@
 <a class="reference internal image-reference" href="_images/uc2.gif"><img alt="_images/uc2.gif" src="_images/uc2.gif" style="width: 187.5px; height: 140.5px;" /></a>
 <p class="caption"><span class="caption-text">Under construction</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>Engineers often refer to their core APIs or installable binary as an “SDK”. I define an “SDK” in the present context as the sum of the available developer assets. As a <strong>Kit</strong>, an SDK includes all available libraries, docs, tools, demos, and utilities. A usable developer ecosystem requires a comprehensive and well-designed front-end that includes a search engine as well as other bells and whistles.</p>
+<p>While engineers often refer to their installable binary as an “SDK”, in the context of a developer ecosystem, an “SDK” is the sum of the available developer assets. As a <em>Kit</em>, an SDK includes all libraries, docs, tools, demos, and utilities. These developer assets always deserve a comprehensive and well-designed front-end that includes a search engine and other bells and whistles such as navigation, themes, and JS widgets.</p>
+<p>A partial list of projects:</p>
 <div class="section" id="acrobat-sign">
 <h2>Acrobat Sign<a class="headerlink" href="#acrobat-sign" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p>Status: In progress. <em>I do not claim ownership of the outdated content</em>–I do own the UI/doc frontend, information architecture, and so on).</p></li>
-<li><p>Assets: New pipeline/format, new UI, dev guide content, REST API updates, image library, demos, code samples.</p></li>
+<li><p>Status: In progress. <em>I inherited 7 year old content</em>. I’ve revamped the UI/doc frontend, information architecture, and so on. The content has just started a major overhaul.</p></li>
+<li><p>Assets: New pipeline/format, new UI, dev guide content, REST API, image library, demos, code samples, SDKs (binaries with samples).</p></li>
 </ul>
 <img src="_images/signsdk.png" class="thumbnail" height="10%" width="10%" /></div>
-<div class="section" id="pdf-viewer-microsoft-adobe-partnership">
-<h2>PDF viewer (Microsoft-Adobe partnership)<a class="headerlink" href="#pdf-viewer-microsoft-adobe-partnership" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="pdf-viewer">
+<h2>PDF viewer<a class="headerlink" href="#pdf-viewer" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Status: Active. Monthly releases.</p></li>
+<li><p>Internal only. Microsoft-Adobe partnership. Adobe’s PDF viewer has been integrated into Edge and Teams. These libraries will eventually become public.</p></li>
 <li><p>Assets: API Reference, dev guide, release notes, image library, code samples.</p></li>
 </ul>
 <img src="_images/t5.png" class="thumbnail" height="10%" width="10%" /></div>
+<div class="section" id="acrobat-com">
+<h2>Acrobat.com<a class="headerlink" href="#acrobat-com" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://developer.adobe.com/document-services/docs/overview/pdf-services-api/">https://developer.adobe.com/document-services/docs/overview/pdf-services-api/</a></p></li>
+<li><p>Status: 2018-present: Owned and built from scratch all of the PDF Services content, including the publish pipeline. In 2021, I handed this off to engineering. The new developer platform doesn’t have a search engine  and other needed bells and whistles which is embarrassing. Since the content organization and style is deteriorating a bit, they’ve been asking me to fix some issues,  and I recently wrote the PDF Electronic Seal API docs which goes live in October, 2022.</p></li>
+<li><p>Assets: Dev guide, image library, demos, code samples, API reference.</p></li>
+</ul>
+<img src="_images/acomsdk.png" class="thumbnail" height="10%" width="10%" /></div>
 <div class="section" id="acrobat-sdk">
 <h2>Acrobat SDK<a class="headerlink" href="#acrobat-sdk" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Status: I converted 2700 pages of Framemaker docs into markdown and pushed online. The work included removal of 700 pages of duplication, improving the organization and usability, and updating the branding.</p></li>
-<li><p><em>I do not claim ownership of the outdated dev guide content</em>–I do own the UI/doc frontend, information architecture, and so on).</p></li>
+<li><p><em>I do not own the 10 year old dev guide content</em>–I do own the UI/doc frontend, information architecture, and so on).</p></li>
 <li><p>Assets: New pipeline/format, new UI, dev guide content, image library, demos, code samples, updated API references scheduled for 2023.</p></li>
 </ul>
 <img src="_images/acrobatsdk.png" class="thumbnail" height="10%" width="10%" /></div>
@@ -295,18 +306,10 @@
 <h2>PDFL SDK<a class="headerlink" href="#pdfl-sdk" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Status: I converted 2700 pages of Framemaker docs into markdown and pushed online. The work included removal of 700 pages of duplication, improving the organization and usability, and updating the branding.</p></li>
-<li><p><em>I do not claim ownership of the outdated dev guide content</em>–I do own the UI/doc frontend, information architecture, and so on).</p></li>
+<li><p><em>I do not own the 10 year old dev guide content</em>–I do own the UI/doc frontend, information architecture, and so on).</p></li>
 <li><p>Assets: New pipeline/format, new UI, dev guide content, image library, demos, code samples, updated API references scheduled for 2023.</p></li>
 </ul>
 <img src="_images/pdflsdk.png" class="thumbnail" height="10%" width="10%" /></div>
-<div class="section" id="acrobat-com">
-<h2>Acrobat.com<a class="headerlink" href="#acrobat-com" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p><a class="reference external" href="https://developer.adobe.com/document-services/docs/overview/pdf-services-api/">https://developer.adobe.com/document-services/docs/overview/pdf-services-api/</a></p></li>
-<li><p>Status: 2018-2021: Owned and built from scratch all of the PDF Services content, including the publish pipeline. In 2021, I handed this off to engineering. The new developer platform doesn’t have a search engine  and other needed bells and whistles which is embarrassing. Since the content organization and style is deteriorating a bit, they’ve been asking me to fix some issues,  and I recently wrote the PDF Electronic Seal API docs which goes live in October, 2022.</p></li>
-<li><p>Assets: Dev guide, image library, demos, code samples, API reference.</p></li>
-</ul>
-<img src="_images/acomsdk.png" class="thumbnail" height="10%" width="10%" /></div>
 <div class="section" id="internal-acrobat-com-beta">
 <h2>Internal Acrobat.com beta<a class="headerlink" href="#internal-acrobat-com-beta" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
@@ -365,7 +368,7 @@
         
         &copy; Copyright 2022, Ben Rogers.
       <span class="lastupdated">
-        Last updated on Sep 22, 2022.
+        Last updated on Sep 23, 2022.
       </span>
     </p>
    
