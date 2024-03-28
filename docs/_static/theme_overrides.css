@@ -601,7 +601,7 @@ td > img {
 
 .wy-menu-vertical li a,
 .wy-menu-vertical li.current a {
-   padding: 10px;
+   padding: 10px 10px 10px 30px;
 }
 
 .wy-menu-vertical li a:active,
