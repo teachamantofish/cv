@@ -1,0 +1,143 @@
+<!-- Release notes modal -->
+<div class="modal" id="releaseNotesModal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="releaseNotes-div">
+            <h3>Release Notes</h3>
+
+            <h4>Known issues</h4>
+            <ul>
+                <li>Some AEM data exported to the CSV is bad. For example: 
+                    <ul>
+                        <li>A few of the preview links in this app go to 404 and aren't valid. This is an AEM issue, not an app issue.</li>
+                        <li>Many AEM Search fields provide no or bad data. For example, all metric and localization fields are useless. </li>
+                        <li>"Internal URL" actually maps to the Preview URL<li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h4>Version 1.1 (3/26/25)</h4>
+            <ul>
+                <li>Add "no index" data and added the noindex count to the report</li>
+                <li>Add "last modified by" data with mailto link</li>
+                <li>Merged the Last Modified and Live columns into a single column. Dates with no links are not live. </li>
+                <li>Improved the report layout 
+                <li>Add tooltip support to all objects and added tooltips to table headers</li>
+                <li>Abstracted and refactored the code so it can support any product data with up to 2 subdirectories levels</li>
+                <li>Changed the Preview link implementation to only use the published internal link when it exists and merged the author and preview columns into a single column</li>
+                <li>Improved column sorting and fixed multiple bugs</li>
+                <li>Moved modal content to a separate file and added/fixed close behavior</li>
+                <li>Added a favicon</li>
+                <li>Made the title casing check more accurate</li> 
+                <li>Dynamically create the table title from CSV data</li>
+                <li>Added release notes modal</li>
+
+            </ul>
+            <h4>Version 1.0.0 (3/19/25)</h4>
+            <ul>
+                <li>Initial release</li> 
+            </ul>
+
+
+            <h4>Future enhancements</h4>
+            <ul>
+                <li>get actual loc data</li>
+                <li>Create a scripted way to dynamically create AEM search URLs and get data in bulk via an API. That is, automate reporting and data collection for all HelpX products.</li>
+                <li>Add more graphs to the content report as needed.</li>
+                <li>Dynamically create the table title from CSV data.</li>
+                <li>Use config params to construct AEM search query; for example, data might not come from /using/ or /adobe-connect. Let the user define the query.</li>
+                <li>Add the most common AEM tool links to the menu bar</li>
+            </ul>
+            <h4>Possible tools</h4>
+            <ul>
+                <li>Content analyzer: get all the links and embedded assets (images) for each file</li>
+                <li>Adobe Analytics integration/tool: merge file and AA data so users don't have to learn AA</li>
+                <li>Go URL management tool</li>
+                <li>TBD</li>
+                <li>TBD</li>
+
+            </ul>     
+        </div>
+    </div>
+</div>
+<!-- Features Modal -->
+<div class="modal" id="featuresModal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="features-div">
+            <!-- Video button and container -->
+            <button id="openPopup">Video DEMO TBD</button>
+            <div id="videoContainer" class="hidden">
+                <button id="closeButton">&times;</button>
+                <video id="myVideo" controls>
+                    <source src="./images/borders.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <p>This app provides tools that leverage standard <a href="https://chl-author.corp.adobe.com/content/aemsearch.html">AEM Search</a> CSV data exported from a workflow package. To add your own data, see these <a href="help.html"> instructions.</a> This app can also analyze live TOC data, and the loaded example uses the Adobe Connect Getting Started Guide, Training Guide, and Event Guide. TOC data collection requires 10 minutes of scripting. Contact <a href="mailto:brogers@adobe.com">brogers@adobe.com</a> for changes, bugs reports, and feature requests.</p>
+
+            <h4>Content management features</h4>
+            Actions that are faster here than in AEM:
+            <ul>
+                <li>Parse and analyze content data to <strong> augment AEM standard CSV data</strong></li>
+                <li>Parse and analyze live TOC data <strong>AEM does not provide</strong></li>
+                <li>Evaluate directory contents for cruft, age, EOL items</li>
+                <li>Evaluate the overall strategy and quality of titles, file names, and links to other guides</li>
+                <li>Find file copies and potential duplicates</li>
+                <li>Find files that were never published or are unpublished (so you can delete them)</li>
+                <li>Identify which files reside in different directories</li>
+                <li>Work in your browser with all the live links</li>
+                <li>Quickly find and work with the data you need: you'll only print and export what you see</li>
+                <li>For TOC data, identify which files are in each guide and evaluate content organization</li>
+                <li>When authoring in AEM, click less, copy less, paste less, swear less</li>
+            </ul>
+
+            <h4>Data view features</h4>
+            <br>
+            Find the data you need:
+            <ul>
+                <li>Change column visibility and page length</li>
+                <li>Sort on any column. Colors identify oddities to check</li>
+                <li>Use text, case-insensitive, and regular expressions to find and filter entries (.*, $, ^, etc.)</li>
+            </ul>
+
+            <h4>Batch action support</h4>
+            <br>
+            Use the search and filter options to show what you want. Select 1-N checkboxes for select specific files. Then you can:
+            <ul>
+                <li>Open all selected files in new browser tabs, including in author, preview, and live modes</li>
+                <li>Export a list of all selected files to a text file, Excel, or print</li>
+                <li>Email list of files to AEM web production team for them to delete, move, or otherwise manage</li>
+                <li>Email a list of review files (if they are published in preview mode) </li>
+                <li>Email a list of live content to anyone. </li>
+                <li>Create a GO URL file you can use for batch import in the GO URL tool.</li>
+                <li>Create a redirect file you can use for batch import into the Redirect tool.</li>
+                <li>Export all the TOC data you need to create an experience fragment from the selected files.</li>
+            </ul>
+
+
+        </div>
+    </div>
+</div>
+<!-- Chart Modal -->
+<div class="modal" id="chartModal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="report-chart">
+            <div id="chartdiv1"></div>
+            <p class="chart-label"></p>
+        </div>
+    </div>
+</div>
+
+<!-- Page Metrics Modal -->
+<div class="modal" id="pageMetricsModal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="report-chart">
+            <h3>Page Views Over Time (Fake data but integrating AA metrics is possible)</h3>
+            <div id="chartdiv2"></div>
+        </div>
+    </div>
+</div> 

@@ -1,0 +1,393 @@
+@import url("https://cdn.datatables.net/buttons/3.2.2/css/buttons.dataTables.min.css");
+
+body {
+  font-family: Adobe clean light, verdana, Arial, sans-serif;
+  font-size: 13px;
+  text-shadow: none;
+  margin: 0;
+  padding: 3em;
+}
+
+img {
+  max-width: 90%;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header-left {
+  flex-basis: 200px;
+  /* initial width */
+  flex-grow: 0;
+  /* don't grow */
+  background-image: url("images/aem-logo.png");
+  background-repeat: no-repeat;
+  height: 45px;
+}
+
+.header-right {
+  flex: 1;
+  background-image: url("images/header_repeat.png");
+  background-repeat: repeat-x;
+  height: 45px;
+  display: flex;
+  padding-top: 10px;
+  padding-left: 1em;
+  font-size: 18px;
+  font-weight: 300;
+  color: #306829;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.top-menu-container  {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding:.5em 0em;
+  margin:0;
+  height: 25px;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #306829;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.menu-item {
+  flex: 1 1 calc(33.333% - 10px);
+  text-align: right;
+}
+
+
+h2 {
+  margin-bottom: -.5em;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+div.report-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+div.report-text {
+  margin-top: 1em;
+}
+
+.report-button {
+  margin-top: 6em;
+  margin-left: 5em;
+}
+
+@keyframes boldPulse {
+  0% { font-weight: 400; }
+  50% { font-weight: 700; }
+  100% { font-weight: 400; }
+}
+
+.report-button button {
+  animation: boldPulse 2s infinite;
+  font-weight: 300;
+}
+
+div.report-chart {}
+
+div.table-container {
+  height: 2000px;
+  /* same height as scrollY */
+  overflow: hidden;
+  flex-basis: 100%;
+  border: 1px solid #ccc;
+  margin: 1em 0 1em 0;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: auto;
+  margin: 2em;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  /* or whatever background color you want */
+}
+
+table.dataTable>tbody>tr>td,
+table.dataTable>tbody>tr>th {
+  padding: 5px !important;
+}
+
+.dt-container {
+  margin-top: .5em;
+  box-shadow:
+    /* right, bottom, blur, spread, color */
+    -1px -1px 4px 0 #65656533,
+    /* subtle top-left shadow */
+    2px 4px 8px 0 #656565;
+  /* stronger bottom-right shadow */
+  border-radius: 5px;
+}
+
+#main {
+  display: none;
+}
+
+/* Row hover effect */
+table.dataTable tbody tr:hover {
+  background-color: #f0fdfb !important;
+  /* Light gray, use !important to override DataTables defaults */
+  cursor: pointer;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  text-overflow: ellipsis;
+}
+
+th {
+  background-color: #f4f4f4;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+
+th .sort-icon {
+  font-size: 0.8em;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.old {
+  background-color: #fff399;
+}
+
+.not-localized {
+  background-color: #fcb373;
+}
+
+.later {
+  background-color: #faddc3;
+}
+
+.not-live {
+  background-color: #f0a5a5;
+}
+
+.differentdirectory {
+  background-color: #fdfbd1;
+}
+
+.casing {
+  background-color: #fce071;
+}
+
+.baseurl {
+  max-width: 300px;
+}
+
+/* DataTable overrides */
+
+/* Ensures proper button placement in DataTables */
+.dt-buttons {
+  display: inline-flex;
+  margin:.5em;
+}
+
+.dt-search {
+  margin-right: 1em;
+}
+
+button.dt-paging-button {
+  min-width: 1em;
+  padding: .5em !important;
+}
+
+.dt-test {
+  color: red;
+}
+
+.load-buttons {
+  margin-left: 0;
+  margin-top: 1em;
+}
+
+.row1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #f4f4f4; 
+}
+
+.row2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+/* Modal styles */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 900px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#chartdiv1 {
+  width: 100%;
+  height: 300px;
+}
+
+#chartdiv2 {
+  width: 60%;
+  height: 300px;
+}
+
+.chart-label {
+  margin-left: 6em;
+}
+
+/* Hide video initially */
+.hidden {
+  display: none;
+}
+
+/* Close button styling */
+#closeButton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 50%;
+}
+
+#videoContainer {
+  position: fixed;
+  top: 30%;
+  left: 70%;
+  width: 640px;
+  height: 360px;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding: 1em;
+  border-radius: 1em;
+  z-index: 1000;
+  /* Ensure it's on top of other content */
+}
+
+video {
+  width: 100%;
+  /* Makes it fill its container */
+  max-width: 640px;
+  /* Prevents it from getting too large */
+  height: auto;
+  /* Keeps aspect ratio */
+}
+
+#features-container {
+  position: absolute;
+  top:4em;
+  right: 3em;
+  z-index: 9999;
+}
+
+
+  .tippy-box[data-theme~='custom'] {
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .tippy-box[data-theme~='custom'][data-placement^='top'] > .tippy-arrow::before {
+    border-top-color: #333;
+  }
+
+
+  .report-table {
+    border-collapse: collapse;
+    margin: 1em;
+  }
+
+  .report-table th, .report-table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 4px 6px;
+
+  }
+  
+  .chart-icon {
+    width: 25px;
+    height: 25px;
+    padding:0;
+    margin:0;
+  }

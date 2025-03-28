@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>AEM Action Dashboard</title>
+    <link rel="stylesheet" href="navigator.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/3.2.2/css/buttons.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.4.0/css/fixedHeader.dataTables.min.css">
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <script src="https://cdn.datatables.net/2.2.2/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/buttons/3.2.2/js/dataTables.buttons.js"></script>
+    <script src="https://cdn.datatables.net/buttons/3.2.2/js/buttons.dataTables.js"></script>
+    <script src="https://cdn.datatables.net/buttons/3.2.2/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/3.2.2/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/3.2.2/js/buttons.html5.min.js"></script>
+    <!-- ClipboardJS (Required for Copy Button) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+    <!--<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.flash.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <!-- Required for Excel button -->
+    <script src="https://cdn.datatables.net/fixedcolumns/5.0.4/js/dataTables.fixedColumns.js"></script>
+    <!-- Required for selecting checkboxes -->
+    <script src="https://cdn.datatables.net/fixedcolumns/5.0.4/js/fixedColumns.dataTables.js"></script>
+    <!-- Required for selecting checkboxes -->
+    <script src="https://cdn.datatables.net/select/3.0.0/js/dataTables.select.js"></script>
+    <!-- Required for selecting checkboxes -->
+    <script src="https://cdn.datatables.net/select/3.0.0/js/select.dataTables.js"></script>
+    <!-- Required for selecting checkboxes -->
+    <script src="https://cdn.datatables.net/fixedheader/3.4.0/js/dataTables.fixedHeader.min.js"></script>
+
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script> <!-- AMCharts Core Library -->
+    <script src="https://cdn.amcharts.com/lib/5/percent.js"></script><!-- Percent (Pie Chart) Module -->
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script><!-- XY Chart Module -->
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script><!-- Animated Theme (Optional) -->
+
+    <!-- Tippy.js dependencies -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/themes/light.css">
+
+    <!-- Load local scripts in dependency order -->
+    <script src="js/csvmodifier.js"></script>
+    <script src="js/ben_utilities.js"></script> 
+    <script src="js/tables.js"></script>
+    <script src="js/reports.js"></script>
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="header-left"></div>
+        <div class="header-right">AEM Action Dashboard: Adobe Connect Demo</div>
+    </div>
+    <div class="top-menu-container">
+        <div class="menu-item">
+            <span onclick="openModal('featuresModal')">Features</span> | 
+            <span onclick="openModal('releaseNotesModal')">Release Notes</span>
+        </div>
+    </div>
+    <p>Select <b>Features</b> to learn about this app's capabilities and how to load your own data.</p>
+
+    <!-- Modal content will be loaded here -->
+    <div id="modal-container"></div>
+
+    <div class="dt-buttons load-buttons">
+        <button class="dt-button buttons-collection" tabindex="0" aria-controls="example" type="button"
+            onclick="document.getElementById('csvFileInput').click()"><span>Load CSV</span>
+            <input type="file" id="csvFileInput" accept=".csv" onchange="window.loadCSV()" style="display: none;">
+        </button>
+        <button class="dt-button buttons-collection" tabindex="0" aria-controls="example" type="button"
+            onclick="location.reload()"><span>Clear data</span></button>
+    </div>
+
+    <div class="container">
+        <h4>Content Report for <span id="pathDisplay" style="color:rgb(13, 130, 22)"></span></h4>
+
+        <div id="report-div">
+            <!-- print reportOnData() contents here-->
+        </div>
+
+        <table id="example" class="display">
+            <thead id="main">
+            </thead>
+            <tbody id="tableBody">
+                <!--insert rows here-->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        $(window).on("load", function () {
+            // Wait for csvmodifier.js to be fully loaded
+            setTimeout(function() {
+                $.get("./7777777777connectUsing.csv", function (data) {
+                    console.log("CSV File Loaded");
+
+                    var blob = new Blob([data], { type: "text/csv" });
+                    var file = new File([blob], "data.csv", { type: "text/csv" });
+                    var fileInput = document.getElementById("csvFileInput");
+                    var dataTransfer = new DataTransfer();
+                    dataTransfer.items.add(file);
+                    fileInput.files = dataTransfer.files;
+
+                    if (typeof window.loadCSV === "function") {
+                        window.loadCSV();
+                    } else {
+                        console.error("loadCSV function not available");
+                    }
+
+                }).fail(function (error) {
+                    console.error("Error loading CSV:", error);
+                });
+            }, 100); // Small delay to ensure scripts are loaded
+        });
+    </script>
+</body>
+
+</html>
